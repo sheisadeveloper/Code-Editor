@@ -26,4 +26,4 @@ app.use("/", userRouter)
 // app.use("/user", codeRouter)
 
 app.get('/', (req, res) => res.send('Hello Worldd!'))
-app.listen(PORT, () => console.log(`Example app listening on port 10000`))
+app.listen(8000, () => console.log(`Example app listening on port 10000`))
